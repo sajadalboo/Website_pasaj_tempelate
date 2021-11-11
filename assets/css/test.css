@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  background: ghostwhite;
+  padding: 0 50px;
+}
+#top-header{
+  padding: 13px 52px;
+}
+#logo img {
+
+  flex-direction: column;
+  width: 146px;
+  height: 100px;
+  justify-content: flex-start;
+}
+
+#icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#flag{
+display: inline-block;
+  background-image: url("../images/finland_1.svg");
+  width: 20px;
+  height: 14px;
+  background-position: -67px -41px;
+}
+#big{
+  padding: 0px 30px;
+}
+.material-icons{
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  font-size: 15pt;
+}
+
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+ul li{
+  padding: 10px;
+}
+.row-header{
+  padding: 15px;
+}
+.top-row{
+  display: flex;
+  justify-content: flex-end;
+}
+.row-item{
+  padding: 10px;
+}
+.row-item img{
+  width: 16px;
+  height: 14px;
+}
